@@ -1,0 +1,20 @@
+.patient-info-container {
+  padding: 1.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.patient-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.patient-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.patient-details {
+  color: #888;
+  font-size: 1rem;
+} 

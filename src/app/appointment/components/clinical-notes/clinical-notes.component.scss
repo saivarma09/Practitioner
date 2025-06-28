@@ -1,0 +1,42 @@
+.clinical-notes-container {
+  padding: 0 1rem 1.5rem 1rem;
+}
+.clinical-notes-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.clinical-note-list {
+  margin-bottom: 1.5rem;
+}
+.clinical-note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+.note-icon {
+  font-size: 1.5rem;
+  margin-top: 0.1rem;
+}
+.note-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.note-date {
+  color: #888;
+  font-size: 1rem;
+}
+.new-note-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+ion-button.new-note-btn {
+  background: #141414;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 999px;
+  padding: 0 2.2rem;
+  height: 48px;
+} 

@@ -1,0 +1,29 @@
+.vitals-container {
+  padding: 1.5rem 1rem 0.5rem 1rem;
+}
+.vitals-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.edit-icon {
+  font-size: 1.1rem;
+}
+.vital-block {
+  margin-bottom: 1.2rem;
+}
+.vital-label {
+  color: #888;
+  font-size: 1rem;
+}
+.vital-value {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.vital-status {
+  color: #888;
+  font-size: 1rem;
+} 
