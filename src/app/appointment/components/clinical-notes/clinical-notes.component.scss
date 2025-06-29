@@ -1,13 +1,10 @@
-.clinical-notes-container {
-  padding: 0 1rem 1.5rem 1rem;
-}
 .clinical-notes-title {
   font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 .clinical-note-list {
-  margin-bottom: 1.5rem;
+  // margin-bottom: 1.5rem;
 }
 .clinical-note-item {
   display: flex;
@@ -20,7 +17,7 @@
   margin-top: 0.1rem;
 }
 .note-title {
-  font-weight: bold;
+  // font-weight: bold;
   font-size: 1.1rem;
 }
 .note-date {
@@ -39,4 +36,41 @@ ion-button.new-note-btn {
   border-radius: 999px;
   padding: 0 2.2rem;
   height: 48px;
+}
+.stepper-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  width: 32px;
+}
+.stepper-icon-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stepper-icon {
+  font-size: 1.5rem;
+  z-index: 1;
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
+.stepper-line {
+  width: 2px;
+  height: 40px;
+  background: #d1d5db;
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.stepper-row {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 } 

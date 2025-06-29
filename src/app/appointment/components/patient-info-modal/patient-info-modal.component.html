@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Patient Info</ion-title>
+    <ion-buttons slot="end">
+      <div (click)="close()">
+        <i class="fa-thin fa-xmark"></i>
+      </div>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list class="ion-padding">
+    <ion-item>
+      <ion-label>Name</ion-label>
+      <ion-text>{{ patient?.name }}</ion-text>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Age</ion-label>
+      <ion-text>{{ patient?.age }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Phone</ion-label>
+      <ion-text>{{ patient?.phone }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-text>{{ patient?.email }}</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-label>Address</ion-label>
+      <ion-text>{{ patient?.address }}</ion-text>
+    </ion-item>
+ 
+  </ion-list>
+</ion-content> 

@@ -178,3 +178,19 @@ ion-toolbar::part(background){
   padding: 0 !important;
   margin: 0 !important;
 }
+
+.inner-item{
+  border: none !important;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+ion-modal::part(content){
+  border-radius: 1rem;
+}

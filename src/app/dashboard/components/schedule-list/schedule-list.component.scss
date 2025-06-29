@@ -24,7 +24,7 @@
   // Enable hardware acceleration
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  will-change: transform;
+  // will-change: transform;
   
   // Prevent text selection during gestures
   -webkit-user-select: none;
@@ -59,7 +59,7 @@
   // Enable hardware acceleration
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  will-change: transform;
+  // will-change: transform;
   
   &:active {
     background: #f5f5f5;
@@ -129,7 +129,7 @@
   opacity: 0;
   
   // Enable hardware acceleration
-  will-change: transform, opacity;
+  // will-change: transform, opacity;
 }
 
 .option-button {
